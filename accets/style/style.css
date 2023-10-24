@@ -1,8 +1,9 @@
-*{
+*{  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 .container{
@@ -15,9 +16,12 @@
     min-height: 100vh;
 }
 
-.desafio1 {
+.desafio1, .desafio2, .desafio3{
     display: grid;
     place-items: center;
+}
+
+.desafio1 {
     padding: 10px;
 }
 .desafio1 img{
@@ -28,10 +32,9 @@
 .desafio2 img{
     width: 250px;
     height: 250px;
+    
 }
 .desafio2{
-    display: grid;
-    place-items: center;
     padding: 10px;
 }
 .desafio2 .gifs{
@@ -55,8 +58,6 @@
 /* desafio 3 */
 
 .desafio3{
-    display: grid;
-    place-items: center;
     height: 350px;
 }
 .desafio3 .box{
