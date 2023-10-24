@@ -10,3 +10,5 @@ function activarborde() {
     }
     setInterval(activarborde, 10000);
 }
+
+/* desafio 2 */
