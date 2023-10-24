@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
 }
 
 .container{
@@ -20,7 +19,6 @@
     display: grid;
     place-items: center;
 }
-
 .desafio1 {
     padding: 10px;
 }
@@ -32,7 +30,6 @@
 .desafio2 img{
     width: 250px;
     height: 250px;
-    
 }
 .desafio2{
     padding: 10px;

@@ -12,3 +12,18 @@ function activarborde() {
 }
 
 /* desafio 2 */
+
+var inputElement1 = document.getElementById("input1")
+var inputElement2 = document.getElementById("input2")
+var inputElement3 = document.getElementById("input3")
+
+var valorInput1 = inputElement1.value;
+var numeroEnteroInput1 = parseInt(valorInput1, 10);
+
+var valorInput2 = inputElement2.value;
+var numeroEnteroInput2 = parseInt(valorInput2, 10);
+
+var valorInput3 = inputElement3.value;
+var numeroEnteroInput3 = parseInt(valorInput3, 10);
+
+var totalInput = numeroEnteroInput1 + numeroEnteroInput2 + numeroEnteroInput3;
