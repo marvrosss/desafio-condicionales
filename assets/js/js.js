@@ -14,7 +14,6 @@ var inputElement1 = document.querySelector("#input1")
 var inputElement2 = document.querySelector("#input2")
 var inputElement3 = document.querySelector("#input3")
 
-var boton = document.querySelector("#miBoton")
 var total = document.querySelector("#totalStikers")
 var cantidadStikers = document.querySelector("cantidad")
 
@@ -44,6 +43,7 @@ function verificar(){
 var s1 = document.querySelector("#s1")
 var s2 = document.querySelector("#s2")
 var s3 = document.querySelector("#s3")
+var password = document.querySelector(".password")
 
 var s10 = s1.value;
 var s100 = parseInt(s10);
@@ -51,3 +51,18 @@ var s20 = s2.value;
 var s200 = parseInt(s20);
 var s30 = s3.value;
 var s300 = parseInt(s30);
+
+var pass1 = s100.toString()+s200.toString()+s300.toString();
+
+function ingresar(){
+    if(pass1 == 911){
+        password.innerHTML = "password 1 correcto";
+    }
+    else if(pass1 == 714){
+        password.innerHTML = "password 2 correcto";
+    }
+    else if(pass1 != 911 != 714){
+        password.innerHTML = "password incorrecto";
+    }
+
+}
