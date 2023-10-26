@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 2 - Condicionales</title>
-    <link rel="stylesheet" href="./accets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
 </head>
+
 <body>
-    <div class="container"> 
+    <div class="container">
         <div class="desafio1">
             <h1>Desafio 1</h1>
-            <img onclick="activarborde()" id="carro" src="./accets/img/6.jpg" alt="">
+            <img onclick="activarborde()" id="carro" src="./assets/img/6.png" alt="">
         </div>
         <hr>
         <div class="desafio2">
@@ -18,20 +20,20 @@
             <p>Puedes llevar hasta 10 Stikers en total</p>
             <div class="gifs">
                 <div class="gif">
-                    <img src="./accets/img/Captura_de_pantalla_2023-10-23_231507-removebg-preview.png" alt="">
+                    <img src="./assets/img/Captura_de_pantalla_2023-10-23_231507-removebg-preview.png" alt="">
                     <input id="input1" type="number">
                 </div>
                 <div class="gif">
-                    <img src="./accets/img/Captura_de_pantalla_2023-10-23_231520-removebg-preview.png" alt="">
+                    <img src="./assets/img/Captura_de_pantalla_2023-10-23_231520-removebg-preview.png" alt="">
                     <input id="input2" type="number">
                 </div>
                 <div class="gif">
-                    <img src="./accets/img/Captura_de_pantalla_2023-10-23_231529-removebg-preview.png" alt="">
+                    <img src="./assets/img/Captura_de_pantalla_2023-10-23_231529-removebg-preview.png" alt="">
                     <input id="input3" type="number">
                 </div>
             </div>
-            <p id="totalStikers">Llevas <span class="cantidad"></span> Stikers</p>
-            <button id="miBoton" onclick="verificar()" >Verificar</button>
+            <p id="totalStikers"></p>
+            <button id="miBoton" onclick="verificar()">Verificar</button>
         </div>
         <hr>
         <div class="desafio3">
@@ -39,15 +41,49 @@
             <div class="box">
                 <h2>Ingresa el password</h2>
                 <div class="numeros">
-                    <input type="number">
-                    <input type="number">
-                    <input type="number">
-                </div>
-                <button>Ingresar</button>
+                    <select name="" id="s1">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select name="" id="s2">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select name="" id="s3">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    </div>
+                <button onclick="ingresar()">Ingresar</button>
             </div>
         </div>
     </div>
 
-    <script src="./accets/js/js.js"></script>
+    <script src="./assets/js/js.js"></script>
 </body>
+
 </html>
