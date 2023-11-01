@@ -10,6 +10,7 @@ function activarborde() {
     }
 }
 /* desafio 2 */
+function verificar(){
 var inputElement1 = document.querySelector("#input1")
 var inputElement2 = document.querySelector("#input2")
 var inputElement3 = document.querySelector("#input3")
@@ -26,7 +27,7 @@ var numeroEnteroInput3 = parseInt(valorInput3);
 
 var totalInput = numeroEnteroInput1 + numeroEnteroInput2 + numeroEnteroInput3;
 
-function verificar(){
+
     if( totalInput <= 10 ){ 
         total.innerHTML = "Llevas " + totalInput + " Stikers"
     }
@@ -39,7 +40,7 @@ function verificar(){
 }
 
 /* desafio 3 */
-
+function ingresar(){
 var s1 = document.querySelector("#s1")
 var s2 = document.querySelector("#s2")
 var s3 = document.querySelector("#s3")
@@ -54,7 +55,7 @@ var s300 = parseInt(s30);
 
 var pass1 = s100.toString()+s200.toString()+s300.toString();
 
-function ingresar(){
+
     if(pass1 == 911){
         password.innerHTML = "password 1 correcto";
     }
@@ -66,3 +67,5 @@ function ingresar(){
     }
 
 }
+
+
